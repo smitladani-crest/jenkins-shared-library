@@ -13,7 +13,7 @@ def call(Map parameters=[:], Closure body) {
             }
             
             stage('build') {
-                echo 'Building the Go projectt...'
+                echo 'Building the Go project...'
                 sh 'go build .'
             }
             
